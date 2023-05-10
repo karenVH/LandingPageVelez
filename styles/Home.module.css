@@ -1,0 +1,24 @@
+.App {
+    height: 100vh;
+    overflow: hidden;
+    background: red;
+}
+
+.parallaxsection {
+    position: relative;
+    height: 100%;
+}
+
+.parallaxlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 2rem;
+}

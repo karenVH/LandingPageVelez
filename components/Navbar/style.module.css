@@ -1,0 +1,63 @@
+.container {
+    width: 100VW;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    background: rgb(255, 255, 255);
+}
+
+.contentItems {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+.titlelogo h3 {
+    font-family: Times, serif;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.menu {
+    width: auto;
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.menu li {
+    list-style: none;
+    font-size: 12px;
+    font-family: var(--fontTitle);
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.contentInt {
+    width: auto;
+    display: flex;
+    column-gap: 10px;
+
+}
+
+.contentInt input {
+    width: 150px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.contentInt input::placeholder {
+    font-size: 10px;
+    font-weight: 200;
+    color: #000;
+    font-family: var(--fontTitle);
+}
