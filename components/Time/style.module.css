@@ -1,0 +1,13 @@
+.container {
+    height: 600px;
+    background: #1c1e12;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+}
+
+.container div {
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+}

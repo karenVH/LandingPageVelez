@@ -1,24 +1,59 @@
-.App {
+.snapcontainer {
     height: 100vh;
-    overflow: hidden;
-    background: red;
+    overflow: auto;
 }
 
-.parallaxsection {
-    position: relative;
-    height: 100%;
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 253, 243);
+    padding: 50px;
+    font-size: 20px;
 }
 
-.parallaxlayer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f2f2f2;
-    color: #333;
-    font-size: 2rem;
+.sticky2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    background-color: rgb(255, 253, 243);
+    padding: 50px;
+    width: 100vw;
+    font-size: 20px;
+    height: 100vh;
+}
+
+.sticky3 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    background-color: rgb(255, 253, 243);
+    padding: 50px;
+    width: 100vw;
+    font-size: 20px;
+    height: 100vh;
+}
+
+.sticky4 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    background-color: rgb(255, 253, 243);
+    padding: 50px;
+    width: 100vw;
+    font-size: 20px;
+    height: 100vh;
+}
+
+.sticky5 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    background-color: rgb(255, 253, 243);
+    padding: 50px;
+    width: 100vw;
+    font-size: 20px;
+    height: 100vh;
 }

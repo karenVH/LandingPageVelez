@@ -1,0 +1,20 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 300px 300px 300px;
+    column-gap: 4px;
+    row-gap: 4px;
+}
+
+.container img {
+    width: 200px;
+    height: 300px;
+}
