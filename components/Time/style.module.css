@@ -1,13 +1,9 @@
 .container {
-    height: 600px;
-    background: #1c1e12;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-image: linear-gradient(rgba(8, 57, 15, 0.5), rgba(4, 48, 18, 0.5)), url('../../public/img/background.jpg');
     display: grid;
     grid-template-columns: auto auto auto auto;
     column-gap: 10px;
-}
-
-.container div {
-    width: 100%;
-    height: 100%;
-    border: 1px solid;
 }

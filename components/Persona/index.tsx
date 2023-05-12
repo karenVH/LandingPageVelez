@@ -1,25 +1,29 @@
 import style from './style.module.css';
-import artesano from '../../public/img/women.jpg';
+
+import bolso from '../../public/img/bolso.png';
 import Image from 'next/image';
 const Personalizacion = () => {
 	return (
 		<div className={style.container}>
 			<div className={style.content}>
-				<div className={style.imageLateral}>
-					<Image src={artesano} alt="" />
+				<div className={style.lateral}>
+					<Image src={bolso} alt="bolso" />
 				</div>
-				<div className={style.contentText}>
-					<div className={style.imagesTop}>
-						<Image src={artesano} alt="" />
-						<Image src={artesano} alt="" />
-						<Image src={artesano} alt="" />
+				<div className={style.contentSection}>
+					<div className={style.divImages}>
+						<Image src={bolso} alt="bolso" />
+						<Image src={bolso} alt="bolso" />
+						<Image src={bolso} alt="bolso" />
+						<Image src={bolso} alt="bolso" />
 					</div>
-					<div className={style.conText}>
-						<h4>Taller de personalización</h4>
+					<div className={style.divTexts}>
+						<h5>Maestros Artesanos</h5>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Id hic vel labore ipsa nisi
-							facilis, quia inventore aliquam nemo delectus possimus voluptatibus animi corrupti!
-							Delectus recusandae laborum dolor dolore impedit!
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quibusdam quisquam
+							obcaecati facere fugit ipsa optio. Lorem ipsum dolor sit, amet consectetur adipisicing
+							elit. Eum deserunt dolores necessitatibus doloremque laudantium reprehenderit, optio
+							corporis similique deleniti, neque dolore, quaerat saepe doloribus error! Voluptatibus
+							ab nam eveniet praesentium?
 						</p>
 					</div>
 				</div>

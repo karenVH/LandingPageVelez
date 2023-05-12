@@ -6,6 +6,7 @@ import Artesano from '@/components/Artesano';
 import Navbar from '@/components/Navbar';
 import Personalizacion from '@/components/Persona';
 import Cuidados from '@/components/Cuidados';
+import Maestro from '@/components/Maestros';
 
 const Test: FC = () => {
 	return (
@@ -15,18 +16,20 @@ const Test: FC = () => {
 				<div className={style.sticky}>
 					<Artesano />
 				</div>
-
 				<div className={style.sticky2}>
+					<Maestro />
+				</div>
+				<div className={style.sticky3}>
 					<Manos />
 				</div>
 
-				<div className={style.sticky3}>
+				<div className={style.sticky4}>
 					<Time />
 				</div>
-				<div className={style.sticky4}>
+				<div className={style.sticky5}>
 					<Personalizacion />
 				</div>
-				<div className={style.sticky5}>
+				<div className={style.sticky6}>
 					<Cuidados />
 				</div>
 			</div>

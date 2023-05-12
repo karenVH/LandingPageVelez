@@ -12,6 +12,8 @@
     background-color: rgb(255, 253, 243);
     padding: 50px;
     font-size: 20px;
+    display: flex;
+    align-content: center;
 }
 
 .sticky2 {
@@ -33,7 +35,7 @@
     padding: 50px;
     width: 100vw;
     font-size: 20px;
-    height: 100vh;
+    height: 1100px;
 }
 
 .sticky4 {
@@ -48,6 +50,17 @@
 }
 
 .sticky5 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    background-color: rgb(255, 253, 243);
+    padding: 50px;
+    width: 100vw;
+    font-size: 20px;
+    height: 100vh;
+}
+
+.sticky6 {
     position: -webkit-sticky;
     position: sticky;
     top: 70px;

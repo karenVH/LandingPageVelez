@@ -19,9 +19,9 @@
 .item1 {
     width: 100%;
     display: flex;
-    height: 70%;
+    height: 100%;
     justify-content: center;
-    align-items: end;
+    align-items: start;
 }
 
 .item1 img {
@@ -39,9 +39,9 @@
 .item2 {
     width: 100%;
     display: flex;
-    height: 100%;
+    height: 70%;
     justify-content: center;
-    align-items: start;
+    align-items: end;
 }
 
 .item2 img {
@@ -59,9 +59,9 @@
 .item3 {
     width: 100%;
     display: flex;
-    height: 70%;
+    height: 100%;
     justify-content: center;
-    align-items: end;
+    align-items: start;
 }
 
 .item3 img {
@@ -79,9 +79,9 @@
 .item4 {
     width: 100%;
     display: flex;
-    height: 100%;
+    height: 70%;
     justify-content: center;
-    align-items: start;
+    align-items: end;
 }
 
 .item4 img {
