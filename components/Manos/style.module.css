@@ -9,8 +9,8 @@
     width: 100%;
     max-width: 1280px;
     display: grid;
-    grid-template-columns: 200px 300px 200px;
-    grid-template-rows: 20px 200px 200px 200px 10px;
+    grid-template-columns: 300px 400px 300px;
+    grid-template-rows: 10px 300px 10px 300px 300px 10px;
     column-gap: 5px;
     row-gap: 5px;
 }
@@ -48,7 +48,7 @@
 
 .itemf {
     grid-column: 2;
-    grid-row: 210px;
+    grid-row: 2;
 }
 
 .itemg {
