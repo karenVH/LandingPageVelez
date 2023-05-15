@@ -67,3 +67,16 @@
     grid-row: 5;
 
 }
+
+@media (max-width: 1080px) {
+    .content {
+        width: 100%;
+        max-width: 1280px;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 10px auto 10px auto auto 10px;
+        column-gap: 5px;
+        justify-content: center;
+        row-gap: 5px;
+    }
+}
