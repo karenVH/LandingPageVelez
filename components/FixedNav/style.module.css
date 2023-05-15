@@ -1,0 +1,21 @@
+.menu {
+    list-style-type: none;
+    padding: 10%;
+    margin: 0;
+
+    background: green;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item.active {
+    font-weight: bold;
+}

@@ -3,7 +3,7 @@ import img1 from '../../public/img/img1.png';
 import title2 from '../../public/img/title2.png';
 import title3 from '../../public/img/title3.png';
 import title4 from '../../public/img/title4.png';
-import hilos from '../../public/img/hilos.jpg';
+
 import style from './style.module.css';
 
 const Artesano = () => {
