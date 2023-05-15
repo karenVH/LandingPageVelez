@@ -3,6 +3,7 @@
     height: 70px;
     display: flex;
     justify-content: center;
+    align-content: center;
     align-items: center;
     padding-left: 3%;
     padding-right: 3%;
@@ -17,6 +18,7 @@
     display: flex;
     justify-content: space-between;
     color: #000;
+    align-items: center;
 }
 
 .titlelogo h3 {
@@ -64,13 +66,34 @@
     font-family: var(--fontTitle);
 }
 
-@media (max-width: 770px) {
-    .menu {
-       display: none;
-    }
+.menuMovil {
+    display: none;
+}
 
-    .menuMovil{display: block;}
-    .input{
+.contentMovil {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .menu {
         display: none;
     }
+
+    .menuMovil {
+        display: block;
+    }
+
+    .contentMovil {
+        display: block;
+    }
+
+    .contentInt {
+        display: none;
+    }
+
+    .contentItems {
+        width: 100%;
+        display: flex;
+    }
+
 }
