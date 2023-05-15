@@ -63,3 +63,14 @@
     color: #000;
     font-family: var(--fontTitle);
 }
+
+@media (max-width: 770px) {
+    .menu {
+       display: none;
+    }
+
+    .menuMovil{display: block;}
+    .input{
+        display: none;
+    }
+}

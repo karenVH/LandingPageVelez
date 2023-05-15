@@ -95,3 +95,14 @@
     width: 250px;
     height: 350px;
 }
+
+@media (max-width: 770px) {
+    .content {
+        /* max-width: 1280px; */
+        width: 100%;
+        display: grid;
+        grid-template-columns: 210px 210px;
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+}
