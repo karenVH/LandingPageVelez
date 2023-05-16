@@ -15,26 +15,28 @@ const Test: FC = () => {
 		<>
 			<div className={style.snapcontainer}>
 				<Navbar />
-				<div className={style.sticky} id="seccion1">
-					<Artesano />
+				<div className={style.menuTop}>
 					<Menu />
 				</div>
-				<div className={style.sticky2} id="seccion2">
+				<div className={style.sticky} id="seccion1">
+					<Artesano />
+				</div>
+				<div className={style.sticky2} >
 					<Maestro />
 				</div>
-				<div className={style.sticky3} id="seccion3">
+				<div className={style.sticky3} >
 					<Manos />
 				</div>
 
-				<div className={style.sticky4} id="seccion4">
+				<div className={style.sticky4} id="seccion2">
 					<Time />
 				</div>
-				{/* <div className={style.sticky5} id="inicio">
+				<div className={style.sticky5}  id="seccion3">
 					<Personalizacion />
 				</div>
-				<div className={style.sticky6} id="inicio">
+				<div className={style.sticky6} id="seccion4">
 					<Cuidados />
-				</div> */}
+				</div>
 				{/* <div className={style.menufijo}> */}
 				{/* <li>Artesanos</li>
 					<li>Maestros</li>

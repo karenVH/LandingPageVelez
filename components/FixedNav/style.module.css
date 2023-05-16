@@ -1,21 +1,26 @@
 .menu {
     list-style-type: none;
-    padding: 10%;
-    margin: 0;
-
-    background: green;
+    width: 100%;
+    text-align: right;
+   
 }
 
-.menu-item {
+.menuitem {
     display: inline-block;
     margin-right: 10px;
 }
 
-.menu-item a {
+.menuitem  {
     text-decoration: none;
-    color: black;
+    font-family: var(--fontBold);
+    color: rgb(177, 177, 177);
+    font-size: 11px;
+    letter-spacing: 3px;
+    line-height: 30px;
 }
 
-.menu-item.active {
+.menuitem.active {
     font-weight: bold;
+    color: purple;
+    background: red;
 }
