@@ -1,13 +1,13 @@
 .snapcontainer {
     width: 100vw;
     height: 100vh;
-    overflow: auto;
+  overflow-x: hidden;
 
 }
 
 .menuTop{
     width: 250px;
-    left: 80%;
+    right: 10px;
     position: -webkit-sticky;
     position: absolute;
     top: 78%;
@@ -19,8 +19,8 @@
  
     top: 70px;
     width: 100%;
-  
-    background-color: rgb(255, 253, 243);
+  height: 100vh;
+    background-color: #EDEAE1;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@
 .sticky2 {
 
     top: 70px;
-    background-color: rgb(255, 253, 243);
+    background-color: #EDEAE1;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -41,7 +41,7 @@
 
 .sticky3 {
     top: 70px;
-    background-color: rgb(255, 253, 243);
+    background-color: #EDEAE1;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -55,7 +55,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 70px;
-    background-color: rgb(255, 253, 243);
+    background-color: #EDEAE1;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -69,7 +69,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 70px;
-    background-color: rgb(255, 253, 243);
+    background-color: #EDEAE1;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -83,7 +83,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 70px;
-    background-color: rgb(255, 253, 243);
+    background-color: #EDEAE1;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -97,27 +97,27 @@
 
     .sticky {
         width: 100%;
-        position: static;
+    height: 100%;
 
     }
 
     .sticky2 {
         width: 100%;
         height: 100%;
-        position: static;
+       
     }
 
     .sticky3 {
         width: 100%;
         height: 100%;
-        position: static;
+
     }
 
     .sticky4 {
         width: 100%;
         height: 100%;
-        padding-top: 300px;
-        position: static;
+     position: static;
+       margin-top: 290px;
     }
 
     .sticky5 {

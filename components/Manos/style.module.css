@@ -9,8 +9,8 @@
     width: 100%;
     max-width: 1280px;
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 10px 400px 10px 400px 400px 10px;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 25px 400px  400px 400px 25px;
     column-gap: 5px;
     justify-content: center;
     row-gap: 5px;
@@ -29,12 +29,12 @@
 
 .itemb {
     grid-column: 1;
-    grid-row: 4;
+    grid-row: 3;
 }
 
 .itemc {
     grid-column: 1;
-    grid-row: 5;
+    grid-row: 4;
 }
 
 .itemd {
@@ -44,12 +44,12 @@
 
 .iteme {
     grid-column: 2;
-    grid-row: 3/5;
+    grid-row: 3;
 }
 
 .itemf {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 4 /6;
 }
 
 .itemg {
@@ -59,12 +59,12 @@
 
 .itemh {
     grid-column: 3;
-    grid-row: 4;
+    grid-row: 3;
 }
 
 .itemi {
     grid-column: 3;
-    grid-row: 5;
+    grid-row: 4;
 
 }
 
