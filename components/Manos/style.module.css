@@ -10,7 +10,7 @@
     max-width: 1280px;
     display: grid;
     grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 25px 400px  400px 400px 25px;
+    grid-template-rows: 25px 400px 400px 400px 25px;
     column-gap: 5px;
     justify-content: center;
     row-gap: 5px;
@@ -74,7 +74,7 @@
         max-width: 1280px;
         display: grid;
         grid-template-columns: 30% 30% 30%;
-        grid-template-rows: 10px 350px 10px 350px 350px 10px;
+        grid-template-rows: 10px 250px 250px 250px 10px;
         column-gap: 5px;
         justify-content: center;
         row-gap: 5px;
