@@ -1,0 +1,82 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.content {
+    width: 100%;
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 25px 400px  400px 400px 25px;
+    column-gap: 5px;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.itema {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.itemb {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.itemc {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.itemd {
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
+
+.iteme {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.itemf {
+    grid-column: 2;
+    grid-row: 4 /6;
+}
+
+.itemg {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.itemh {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.itemi {
+    grid-column: 3;
+    grid-row: 4;
+
+}
+
+@media (max-width: 1080px) {
+    .content {
+        width: 100%;
+        max-width: 1280px;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 10px 350px 10px 350px 350px 10px;
+        column-gap: 5px;
+        justify-content: center;
+        row-gap: 5px;
+    }
+}

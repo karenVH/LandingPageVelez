@@ -1,0 +1,145 @@
+.container {
+    padding-top: 10%;
+    justify-content: center;
+    /* max-width: 1280px; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    max-width: 1280px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 210px 210px 210px 210px;
+    column-gap: 2%;
+}
+
+.item1 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: start;
+}
+
+.item1 img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.item1 img:hover {
+    width: 250px;
+    height: 350px;
+}
+
+.item2 {
+    width: 100%;
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    align-items: end;
+}
+
+.item2 img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.item2 img:hover {
+    width: 250px;
+    height: 350px;
+}
+
+.item3 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: start;
+}
+
+.item3 img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.item3 img:hover {
+    width: 250px;
+    height: 350px;
+}
+
+.item4 {
+    width: 100%;
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    align-items: end;
+}
+
+.item4 img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.item4 img:hover {
+    width: 250px;
+    height: 350px;
+}
+
+@media (max-width: 900px) {
+    .content {
+        /* max-width: 1280px; */
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 330px 330px;
+
+    }
+
+    .item1 img {
+        width: 100%;
+
+    }
+
+    .item1 {
+        height: 100%;
+    }
+
+    .item2 img {
+        width: 100%;
+
+    }
+
+    .item2 {
+        height: 100%;
+    }
+
+    .item3 img {
+        width: 100%;
+
+    }
+
+    .item3 {
+        height: 100%;
+    }
+
+    .item4 img {
+        width: 100%;
+    }
+
+    .item4 {
+        height: 100%;
+    }
+}

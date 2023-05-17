@@ -1,0 +1,26 @@
+.menu {
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+   
+}
+
+.menuitem {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menuitem  {
+    text-decoration: none;
+    font-family: var(--fontBold);
+    color: rgb(177, 177, 177);
+    font-size: 11px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.menuitem.active {
+    font-weight: bold;
+    color: purple;
+    background: red;
+}
